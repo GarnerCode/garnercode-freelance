@@ -7,24 +7,28 @@
                     Tyler Garner
                 </NuxtLink>
             </div>
-            <div @click="navToggled = !navToggled" :class="{'toggled': navToggled}" class="mobile-nav-toggle">
+            <div @click="handleToggle()" :class="{'toggled': navToggled}" class="mobile-nav-toggle">
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
             </div>
-            <div v-if="navToggled" class="mobile-nav-container flex-column gap-5" :class="{'alt-bg': $route.fullPath !== '/'}">
-                <div @click="navToggled = false" class="nav-item" v-for="(nav, index) of navItems" :key="index">
-                    <div class="active-bar" :class="{'active': $route.fullPath === nav.route}"></div>
-                    <NuxtLink :to="nav.route">{{ nav.label }}</NuxtLink>
+            <Transition name="slide" mode="out-in">
+                <div v-if="navToggled" class="mobile-nav-container flex-column gap-5" :class="{'alt-bg': $route.fullPath !== '/'}">
+                    <div @click="handleToggle()" class="nav-item" v-for="(nav, index) of navItems" :key="index">
+                        <div class="active-bar" :class="{'active': $route.fullPath === nav.route}"></div>
+                        <NuxtLink :to="nav.route">{{ nav.label }}</NuxtLink>
+                    </div>
                 </div>
-            </div>
+            </Transition>
             <div class="nav-container flex-row gap-3">
                 <div class="nav-item" :class="{'active': $route.fullPath === nav.route}" v-for="(nav, index) of navItems" :key="index">
                     <NuxtLink :to="nav.route">{{ nav.label }}</NuxtLink>
                 </div>
             </div>
         </header>
-        <div v-if="navToggled" class="mobile-nav-overlay"></div>
+        <Transition name="fade" mode="out-in">
+            <div @click="handleToggle()" v-if="navToggled" class="mobile-nav-overlay"></div>
+        </Transition>
     </div>
 </template>
 
@@ -192,5 +196,15 @@
                 navToggled: false,
             }
         },
+        methods: {
+            handleToggle(): void {
+                this.navToggled = !this.navToggled;
+                if (this.navToggled) {
+                    document.getElementsByTagName('html')[0].style.overflow = 'hidden';
+                } else {
+                    document.getElementsByTagName('html')[0].style.overflow = 'auto';
+                }
+            }
+        }
     })
 </script>

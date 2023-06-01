@@ -61,6 +61,19 @@
     ::-webkit-scrollbar-thumb {
         background: var(--color-black);
     }
+    .slide-enter, .slide-leave-to {
+        opacity: 0;
+        transform: translateY(-2rem);
+    }
+    .slide-enter-active, .slide-leave-active {
+        transition: var(--transition);
+    }
+    .fade-enter, .fade-leave-to {
+        opacity: 0;
+    }
+    .fade-enter-active, .fade-leave-active {
+        transition: var(--transition);
+    }
     body {
         margin: 0;
     }
