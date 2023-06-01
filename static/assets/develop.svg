@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e6e6e6;
+      }
+
+      .cls-2 {
+        fill: #c5242a;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x="36.61" y="161.61" width="176.78" height="176.78" transform="translate(213.39 -15.17) rotate(45)"/>
+  <rect class="cls-1" x="161.61" y="36.61" width="176.78" height="176.78" transform="translate(161.61 -140.17) rotate(45)"/>
+  <rect class="cls-1" x="161.61" y="286.61" width="176.78" height="176.78" transform="translate(338.39 -66.94) rotate(45)"/>
+  <g id="SVGRepo_iconCarrier" data-name="SVGRepo iconCarrier">
+    <path class="cls-1" d="M175,283.33v-79.17H75v79.17h33.33v4.17h-4.17v8.33h41.67v-8.33h-4.17v-4.17h33.33Zm-91.67-70.83h83.33v62.5H83.33v-62.5Zm50,75h-16.67v-4.17h16.67v4.17Zm-12.5-58.33h-29.17v-8.33h29.17v8.33Zm16.67,12.5h-37.5v-8.33h37.5v8.33Zm-8.33,12.5h-29.17v-8.33h29.17v8.33Zm-20.83,12.5h-16.67v-8.33h16.67v8.33Z"/>
+  </g>
+</svg>
