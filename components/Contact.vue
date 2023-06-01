@@ -5,7 +5,7 @@
             <h4>Let's Work Together</h4>
         </div>
         <div class="contact-container">
-            <form>
+            <form action="https://getform.io/f/607da9e8-ff5a-4f71-9905-0979b0840530" method="POST">
                 <input class="field" type="text" name="name" placeholder="Name">
                 <input class="field" type="email" name="email" placeholder="Email">
                 <input class="field" type="tel" name="phone" placeholder="Phone">
