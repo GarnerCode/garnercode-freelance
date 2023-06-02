@@ -13,7 +13,7 @@
                 <p class="about-text">
                     I specialize in developing custom websites for small businesses and organizations that are looking to establish a strong online presence. With a keen eye for design and a passion for coding, I strive to deliver visually appealing and highly functional websites that cater to the unique needs of my clients.
                 </p>
-                <button class="button button-primary">Learn More</button>
+                <button class="button button-primary">More About Me</button>
             </div>
         </div>
     </section>

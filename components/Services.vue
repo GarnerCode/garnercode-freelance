@@ -33,7 +33,7 @@
                 </div>
             </div>
         </div>
-        <NuxtLink to="/services" class="button button-primary">Learn More</NuxtLink>
+        <NuxtLink to="/services" class="button button-primary">More About Services</NuxtLink>
     </section>
 </template>
 
