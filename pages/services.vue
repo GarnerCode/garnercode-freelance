@@ -13,7 +13,7 @@
                     </div>
                     <div class="service-details">
                         <p>Great web design is a key factor in a user's initial impression of a business. Is it professional? Is it easy to navigate? Does it display correctly across multiple devices?</p>
-                        <p>Before development, I design mockups of websites to create the structure and style of the project, ensuring the finalized design is both professional, and is exactly how the client wants their website to look!</p>
+                        <p>Before development, I design mockups of websites to create the structure and style of the project, ensuring the finalized design is both professional, and is exactly how you want your website to look!</p>
                     </div>
                 </div>
             </div>
@@ -25,7 +25,7 @@
                         <img class="service-icon service-icon-mobile" src="assets/develop.svg" alt="">
                     </div>
                     <div class="service-details">
-                        <p>SEO is another critical factor in determing if potential customers discover your website on Google. When they arrive, however, statistics show that roughly 40% of website visitors leave if the page takes longer than 3 seconds to load.</p>
+                        <p>SEO is another critical factor in determing if potential customers discover your website on Google. When visitors arrive, however, statistics show that roughly 40% of website visitors leave if the page takes longer than 3 seconds to load.</p>
                         <p>When developing websites, I focus on SEO and performance speed to ensure potential customers are more likely to visit your website, and stick around long enough to learn all about you and your business!</p>
                     </div>
                 </div>
