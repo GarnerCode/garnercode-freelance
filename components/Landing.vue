@@ -8,7 +8,7 @@
                 <h2>& Development</h2>
             </div>
             <p>I'm a freelance web developer that builds online platforms for small businesses and organizations.</p>
-            <button class="button button-primary">Contact</button>
+            <NuxtLink to="/contact" class="button button-primary">Contact</NuxtLink>
         </div>
         <img class="landing-hero" src="assets/landing-hero.webp" alt="Macbook displaying Arch project">
     </section>
